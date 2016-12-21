@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "My project",
+  "main": "server.js",
+  "author": "Roman",
+  "dependencies": {
+    "async": "^0.2.10",
+    "ejs": "^2.5.5",
+    "express": "^4.13.3",
+    "mongodb": "^2.2.16",
+    "socket.io": "^0.9.17"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC"
+}
